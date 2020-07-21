@@ -15,11 +15,17 @@ body {
     .background-elephant {
         background-image: url('img/elephant-279505_1920.jpg');
     }
-}
-.background-grasshopper {
-    background-image: url('img/grasshopper-2655486_1280.jpg');
-}
 
+    .background-grasshopper {
+    background-image: url('img/grasshopper.jpg');
+    }
+    .background-butterfly {
+        background-image: url('img/butterfly.jpg');
+        }
+
+Input [type="text"] {
+    Background-color:transparent;
+}
 
 
 nav {
@@ -62,12 +68,12 @@ h3 {
     font-weight: bold;
 }
 
-em {
+/*em {
     color: yellowgreen;
     background-color: grey;
 }
 
-/*main {
+main {
     max-width: 62rem;
     margin:auto;
     display: flex;
@@ -95,21 +101,34 @@ em {
 }
 
 table {
+    border: thin solid black;
     text-align: center;
-    width: 100%;
-    background-color: coral;
+    width: 100%;  
+    background-color:#ff7950;
+    margin-top: 18rem;
+    
 }
 
 .row {
 display:flex;
 padding-inline: 80px;
 }
+.boxo {
+    width: 100%;
+    margin: auto;
+    background-color: deepskyblue;
+}
 
+.anForm {
+    display: block;
+    margin-left: 25%;
+    margin-right: 5px;
+}
 footer {
-    background-color: #263238;
-    color: #ffffff;
+    width:100%;
+    background-color: grey;
     padding: 2rem;
-    margin-top: 1rem;
+    margin-top: 10rem;
   }
   
 
